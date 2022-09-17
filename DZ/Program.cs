@@ -223,7 +223,7 @@ namespace DZ
 
             Console.WriteLine("Задание 22");
             Console.Write("Напишите число:");
-            double ocherednaya_peremennaya = Convert.ToDouble(Console.ReadLine());
+            int ocherednaya_peremennaya = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Результат:" + ocherednaya_peremennaya % 10 * 100 + ocherednaya_peremennaya / 10);
             Console.ReadKey();
 
