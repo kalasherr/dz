@@ -230,7 +230,7 @@ namespace DZ
 
             Console.WriteLine("Задание 23");
             Console.Write("Напишите число:");
-            double peremennaya = Convert.ToDouble(Console.ReadLine());
+            int peremennaya = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Тысяч:" + peremennaya / 1000 + " Сотни:" + peremennaya / 100);
             Console.ReadKey();
 
